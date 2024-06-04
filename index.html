@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Test
+		</title>
+		<script>
+			function comp(){
+				clave1 = document.f1.clave.value
+
+				if (clave1 == "divine") {
+					window.location.assing("summoning.html")
+				}
+				else{
+					alert("la clave no coincide")
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<h1>
+			Bienvenida a <i>heaven</i>
+		</h1>
+		<p>Por favor ingrese la clave</p>
+		<form action="" name="f1">
+			<input type="password" name="clave">
+			<br><br>
+		</form>
+		<button onclick="navigate()">Navigate</button>
+ 	 	<script>
+	    	function navigate(){
+    	  	// navigate to edpresso page of educative.io
+			  	clave1 = document.f1.clave.value+".html"
+					window.location.assign(clave1)
+	    	}
+	  	</script>
+	</body>
+</html>
+<html>
+<body>
+  	<h3>window.location.assign()</h3>
+  	<input type="password" name="clave">
+	<br><br>
+  	
+</body>
+</html>
