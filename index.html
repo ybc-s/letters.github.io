@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Homepage
+		</title>
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+	<body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+		<h1 style="text-align: center;">
+			<i>Welcome</i>
+		</h1>
+		<p>Por favor ingrese la clave</p>
+		<form action="" name="f1">
+			<input type="text" name="clave">
+			<br><br>
+		</form>
+		<div>
+			<button onclick="navigate() ">Navigate</button>
+		</div>
+ 	 	<script>
+	    	function navigate(){
+			  	clave1 = document.f1.clave.value+".html"
+				window.location.assign(clave1)
+	    	}
+	  	</script>
+	</body>
+</html>
