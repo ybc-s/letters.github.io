@@ -1,14 +1,16 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     background-color: rgb(100, 100, 122);
+    .advice{
+        color: #38343f;
+    }
 
+}
+
+@media (max-width: 600px){
     .mid {
         text-align: center;
         font-size: 25px;
-    }
-    
-    .advice{
-        color: #38343f;
     }
 
     h1{
