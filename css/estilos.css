@@ -37,6 +37,11 @@ body {
         font-size: x-large;
     }
 
+    button {
+        width: 25%;
+        height: 40px;
+    }
+
     img {
         width: 80%;
     }
