@@ -46,6 +46,7 @@ body {
 @media (min-width: 601px){
     p {
         font-size: larger;
+        color: blue;
     }
     img {
         width: 40%;
