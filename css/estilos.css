@@ -1,8 +1,18 @@
+@font-face {
+    font-family: Token;
+    src: url('./fonts/StFont_v111-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     background-color: rgb(111, 111, 128);
     .advice{
         color: #38343f;
+    }
+    .tok{
+        font-family: 'Token', sans-serif;
     }
 }
 
@@ -51,10 +61,6 @@ body {
         
     }
 
-    .immm{
-        align: center;
-    }
-
     img {
         width: 80%;
     }
@@ -97,9 +103,3 @@ body {
     
 }
 
-@font-face {
-    font-family: Token;
-    src: url('./fonts/StFont_v111-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
