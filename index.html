@@ -12,20 +12,23 @@
 		</h1>
 		<p class="mid">Por favor ingrese la clave</p>
 		<form class="mid" action="" name="f1">
-			<input type="text" name="clave">
+			<input type="text" name="clave" mozactionhint="navigate" onkeypress="pulsar(event)"">
 			<br><br>
 		</form>
 		<div>
-			<button onclick="readyyy() ">Navigate</button>
+			<button onclick="navigate()">Navigate</button>
 		</div>
  	 	<script>
 	    	function navigate(){
 			  	clave1 = document.f1.clave.value+".html"
 				window.location.assign(clave1)
 	    	}
-			funcion readyyy(){
-				window.alert("Esto aún no está listo")
-			} 
+			function pulsar(e){
+				if (e.keyCode === 13){
+					clave1 = document.f1.clave.value+".html"
+					window.location.assign(clave1)
+				}
+			}
 	  	</script>
 		<p class="advice">Notas</p>
 		<ul class="advice">
