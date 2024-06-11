@@ -41,7 +41,7 @@ body {
         height: 50px;
     }
 
-    div {
+    .buitton {
         display: flex;
         align: center;
         justify-content: center;
@@ -49,6 +49,10 @@ body {
         justify-items: center;
         font-size: x-large;
         
+    }
+
+    .immm{
+        align: center;
     }
 
     img {
@@ -61,6 +65,10 @@ body {
 
     .tab {
         align-items: center;
+    }
+
+    .lyrics{
+        text-align: center;
     }
 }
 
