@@ -2,9 +2,6 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     background-color: rgb(100, 100, 122);
 
-}
-
-@media {
     .mid {
         text-align: center;
         font-size: 25px;
