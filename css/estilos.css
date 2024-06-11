@@ -31,6 +31,11 @@ body {
         font-size: 25px;
     }
 
+    input {
+        width: 60%;
+        height: 35px;
+    }
+
     button {
         width: 30%;
         height: 50px;
