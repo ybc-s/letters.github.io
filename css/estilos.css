@@ -1,33 +1,42 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    background-color: rgb(197, 197, 201);
+    background-color: rgb(100, 100, 122);
+
 }
 
 @media (max-width:600px){
-    .column {
-        width: 100%;
+    .mid {
+        text-align: center;
+        font-size: 25px;
     }
     
+    .advice{
+        color: #38343f;
+    }
+
     h1{
         font-size: 45px;
     }
+
     p {
-        color: red;
-        text-align: center;
-        font-size: 25px;
+        text-align: justify;
+        font-size: larger;
     }
+
     form {
-        text-align: center;
+        text-align: justify;
         font-size: 25px;
     }
+
     div {
         display: flex;
         align: center;
         justify-content: center;
         align-items: center;
         justify-items: center;
-        font-size: 20px;
+        font-size: x-large;
     }
+
     img {
         width: 80%;
     }
@@ -35,8 +44,8 @@ body {
 }
 
 @media (min-width:601px){
-    .column {
-        width: 50%;
+    p {
+        font-size: larger;
     }
     img {
         width: 40%;
