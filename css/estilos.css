@@ -4,10 +4,13 @@ body {
     .advice{
         color: #38343f;
     }
-
 }
 
 @media (orientation: portrait){
+    body {
+        margin: 5%;
+    }
+
     .mid {
         text-align: center;
         font-size: 25px;
@@ -28,6 +31,11 @@ body {
         font-size: 25px;
     }
 
+    button {
+        width: 30%;
+        height: 50px;
+    }
+
     div {
         display: flex;
         align: center;
@@ -35,11 +43,7 @@ body {
         align-items: center;
         justify-items: center;
         font-size: x-large;
-    }
-
-    button {
-        width: 25%;
-        height: 40px;
+        
     }
 
     img {
@@ -56,8 +60,13 @@ body {
 }
 
 @media (orientation: landscape){
+    body {
+        margin: 2%;
+    }
+
     p {
-        font-size: larger;
+        text-align: justify;
+        font-size: small;
     }
 
     img {
@@ -66,6 +75,11 @@ body {
 
     h1{
         font-size: 40px;
+    }
+
+    button {
+        width: 75px;
+        height: 50px;
     }
     
 }
