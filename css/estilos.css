@@ -70,7 +70,12 @@ body {
     }
 
     .tab {
+        display: flex;
+        align: center;
+        justify-content: center;
         align-items: center;
+        justify-items: center;
+        font-size: larger;
     }
 
     .lyrics{
