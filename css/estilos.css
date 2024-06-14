@@ -6,17 +6,19 @@
 }
 
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(111, 111, 128);
-    .advice{
+
+    .advice {
         color: #38343f;
     }
-    .tok{
+
+    .tok {
         font-family: 'Token', sans-serif;
     }
 }
 
-@media (orientation: portrait){
+@media (orientation: portrait) {
     body {
         margin: 5%;
     }
@@ -26,7 +28,7 @@ body {
         font-size: 25px;
     }
 
-    h1{
+    h1 {
         font-size: 45px;
         text-align: center;
     }
@@ -58,13 +60,13 @@ body {
         align-items: center;
         justify-items: center;
         font-size: x-large;
-        
+
     }
 
     img {
         width: 80%;
     }
-    
+
     .advice {
         font-size: larger;
     }
@@ -78,12 +80,12 @@ body {
         font-size: x-large;
     }
 
-    .lyrics{
+    .lyrics {
         text-align: center;
     }
 }
 
-@media (orientation: landscape){
+@media (orientation: landscape) {
     body {
         margin: 2%;
     }
@@ -97,7 +99,7 @@ body {
         width: 40%;
     }
 
-    h1{
+    h1 {
         font-size: 40px;
     }
 
@@ -105,6 +107,5 @@ body {
         width: 75px;
         height: 50px;
     }
-    
-}
 
+}
