@@ -18,6 +18,7 @@ body {
     }
 }
 
+
 @media (orientation: portrait) {
     body {
         margin: 5%;
@@ -65,6 +66,10 @@ body {
 
     img {
         width: 80%;
+        align: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
     }
 
     .advice {
