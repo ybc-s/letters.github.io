@@ -12,11 +12,16 @@
 }
 
 body {
-    font-family:'Comic', sans-serif;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(111, 111, 128);
 
     .advice {
         color: #38343f;
+    }
+
+    .comic {
+        font-family:'Comic', sans-serif;
     }
 
     .tok {
